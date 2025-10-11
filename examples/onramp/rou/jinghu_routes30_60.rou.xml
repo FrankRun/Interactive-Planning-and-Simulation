@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-08-01 10:13:07 by Eclipse SUMO netedit Version 1.20.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="vehicle.tesla.model3" length="4.81" width="2.17" height="1.52" color="red" minGap="2.5" speedFactor="0.75" speedDev="0.125" accel="2.5" decel="4.5" emergencyDecel="6.5" />
+    <vType id="inter_AV" length="4.81" width="2.17" height="1.52" color="yellow" minGap="0"  speedFactor="0.75" speedDev="0.125"  accel="2.5" decel="4.5" emergencyDecel="6.5" />
+    <!-- Routes -->
+    <route id="r0" edges="-69 -25 -76 -13 -58 -68 -29 -86#0 -86#1 -72 -16 -53 -62 -87#0 -87#1 -73 -77 -47 -50 -28 -37 -64 -57 -54 -71 -1#0 -1#1 -8 -35#0 -35#1"/>    
+    <route id="r1" edges="-4 -19 -25 -76 -13 -58 -68 -29 -86#0 -86#1 -72 -16 -53 -62 -87#0 -87#1 -73 -77 -47 -50 -28 -37 -64 -57 -54 -71 -1#0 -1#1 -8 -35#0 -35#1"/>
+    <route id="r2" edges="-65 -38 -11 -80 -68 -29 -86#0 -86#1 -72 -16 -53 -62 -87#0 -87#1 -73 -77 -47 -50 -28 -37 -64 -57 -54 -71 -1#0 -1#1 -8 -35#0 -35#1"/>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <flow id="1" type="vehicle.tesla.model3" begin="0.00" departLane="random" departPos="1.00" departSpeed="desired" route="r2" end="200000.00" probability="0.3"/>
+</routes>
