@@ -11,8 +11,6 @@ This project implements a co-simulation framework integrating CARLA (an open-sou
 - [Project Structure](#project-structure)
 - [Usage](#usage)
 - [Configuration](#configuration)
-- [Reinforcement Learning Module](#reinforcement-learning-module)
-- [Interactive Planning Module](#interactive-planning-module)
 - [Examples](#examples)
 - [Demo Videos](#demo-videos)
 
@@ -21,7 +19,7 @@ This project implements a co-simulation framework integrating CARLA (an open-sou
 - **CARLA-SUMO Co-Simulation**: Seamless integration between CARLA and SUMO for realistic traffic simulation
 - **Interactive Decision Planning**: Advanced planning algorithms for autonomous vehicle behavior in interactive scenarios
 - **Anti-Bully Model**: Intelligent decision-making system to handle aggressive driving behaviors
-- **Reinforcement Learning**: PPO (Proximal Policy Optimization) implementation for training background traffic
+- **Reinforcement Learning**: PPO (Proximal Policy Optimization) implementation for training background traffic agents
 - **OpenDRIVE Support**: Load custom road networks using OpenDRIVE format
 - **Multiple Scenarios**: Pre-configured highway scenarios including on-ramp and off-ramp merging
 - **Real-time Visualization**: Camera-based visualization support for monitoring simulation
@@ -53,16 +51,6 @@ The system consists of three main components:
 - **SUMO** (1.8.0 or higher)
 - **Python** 3.7 or higher
 - **Operating System**: Linux (Ubuntu 20.04)
-
-### Required Python Packages
-
-```
-lxml==4.6.2
-numpy
-pandas
-torch
-traci
-```
 
 ## 🚀 Installation
 
@@ -193,14 +181,6 @@ python run_synchronization_info2_camera.py \
     --tls-manager carla
 ```
 
-**Available Options:**
-- `--sumo-cfg-file`: Path to SUMO configuration file
-- `--carla-host`: IP of the CARLA server (default: localhost)
-- `--carla-port`: TCP port to connect to CARLA (default: 2000)
-- `--sumo-gui`: Enable SUMO GUI
-- `--sync-vehicle-all`: Synchronize all vehicles
-- `--tls-manager`: Traffic light manager (carla/sumo)
-
 ## ⚙️ Configuration
 
 ### SUMO Configuration
@@ -214,27 +194,6 @@ Each scenario includes:
 - Network file (`.net.xml`)
 - Route file (`.rou.xml`)
 - Vehicle type definitions
-
-## 🤖 Reinforcement Learning Module
-
-The RL module implements PPO (Proximal Policy Optimization) for training interactivate background traffic agents.
-
-### Training
-
-```bash
-cd RL
-python ppo_main.py --env_name highway --train
-```
-
-## 🧠 Interactive Planning Module
-
-The interactive planning module handles decision-making in complex traffic scenarios.
-
-### Key Components
-
-1. **Decision Module**: Analyzes traffic situation and makes interactivate decisions
-2. **Control Module**: Executes decisions through acceleration/deceleration commands
-3. **Data Recording**: Logs trajectory and decision data for analysis
 
 ## 📚 Examples
 
