@@ -258,16 +258,20 @@ python run_synchronization_info2_camera.py \
 
 Demo videos are available in the `image/` directory:
 
-![Co-simulation](image/Co-simulation.jpg)
+### Co-simulation Overview
+[![Co-simulation](image/Co-simulation.jpg)](image/Co-simulation.jpg)
 
+### Case 1
 ![Case 1](image/case1.gif)
 
+### Case 2
 ![Case 2](image/case2.gif)
 
+### Case 3
 ![Case 3](image/case3.gif)
 
+### Case 4
 ![Case 4](image/case4.gif)
-
 
 ## 📧 Contact
 
