@@ -4,15 +4,15 @@ This project implements a co-simulation framework integrating CARLA (an open-sou
 
 ## 📋 Table of Contents
 
-- [Features](#features)
-- [System Architecture](#system-architecture)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Project Structure](#project-structure)
-- [Usage](#usage)
-- [Configuration](#configuration)
-- [Examples](#examples)
-- [Demo Videos](#demo-videos)
+- [Features](#-features)
+- [System Architecture](#️-system-architecture)
+- [Prerequisites](#-prerequisites)
+- [Installation](#-installation)
+- [Project Structure](#-project-structure)
+- [Usage](#-usage)
+- [Configuration](#️-configuration)
+- [Examples](#-examples)
+- [Demo Videos](#-demo-videos)
 
 ## ✨ Features
 
